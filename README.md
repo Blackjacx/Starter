@@ -84,19 +84,11 @@ Basically we develop on short living branches (one branch per task for example) 
 
 Master branch should always be stable and deployable for hotfixes, if necessary. Merge from `develop` to `master`therefore happens only wen a new release is deployed.
 
-### Coding Guidelines (ongiong)
-1. **Use the `self.` syntax exclusively in closures and appropriate initializers.** So it will become easier to track down future retain cycles that are caused by missing `[weak self]` in the closure definition. Just leave out `self` if it is not necessary. Also use the `self.` syntax to initially assign constructor parameters to their respective properties if they have the same name.
-1. **Never use the default case in switch statements.** Switch is an extremely useful construct in Swift since the compiler warns about missing cases. If you use the default case you disable this behaviour and loose one of the most powerful features of Swift.
-1. **Never omit specifying the value of string-typed enum cases.** Imagine you create a string-typed enum and omit the values for every case since Swift infers the value from the case name. Now when you refactor one enum case from somewhere in your app, the inferred value also changes, which is not desired i.e. in JSON keys. You would introduce hard to find errors.
-1. **Never directly edit localised files other than the base version.** The translations are managed centrally via Phrase - our translation service. If you always add translations manually to any of the string files other than `Base`, Phrase cannot infer untranslated keys.
-1. **Create all classes as `final`.** This way some optimisations are enabled for these classes which speeds up compilation.
-1. **Set thickness of lines device dependent.** When you set the thickness of lines to `1.0 / UIScreen.main.scale` then the will appear equally on all devices.
-1. **Use UITextView for multiline text.** If you follow this rule you get text selection and all the features of an UITextView for free. Be sure you set isEditable and isScrollable to `false`.
+### Coding Guidelines
+We use the shared coding guidelines referenced [here](https://gist.github.com/Blackjacx/9040bb9271a9e361bfca25515cff9e9b)
 
-### Review Guidelines (ongiong)
-1. All tets must be green.
-1. The coding guidelines must match.
-1. Code duplicates are not allowed.
+### Review Guidelines
+We use the shared review guidelines referenced [here](https://gist.github.com/Blackjacx/ddb80b348724da0113ab2fdd142b38b7)
 
 ### User Defaults
  
