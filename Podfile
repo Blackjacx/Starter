@@ -19,3 +19,11 @@ target 'Starter' do
         inherit! :search_paths
     end
 end
+
+post_install do |options|
+    options.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.2'
+        end
+    end
+end

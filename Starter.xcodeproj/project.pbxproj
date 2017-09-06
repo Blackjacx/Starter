@@ -672,7 +672,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CZM4Q8JY8;
-				INFOPLIST_FILE = Starter/Info.plist;
+				INFOPLIST_FILE = Starter/en.lproj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingcobra.Starter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -688,7 +688,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CZM4Q8JY8;
-				INFOPLIST_FILE = Starter/Info.plist;
+				INFOPLIST_FILE = Starter/en.lproj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingcobra.Starter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
