@@ -71,13 +71,6 @@ SwiftLint is the static code checker we use. It will be installed by Cocoapods a
 - Swift language
 - and many more ...
 
-To run SwiftLint automatically on every build you have to add the following run script as the final build phase of your main target:
-
-```shell
-${PODS_ROOT}/SwiftLint/swiftlint autocorrect
-${PODS_ROOT}/SwiftLint/swiftlint
-```
-
 ## Development
  
 Basically we develop on short living branches (one branch per task for example) to avoid extensive code reviews and merge conflicts after one or two weeks. If all tests are green (including your new written tests), you can create a pull request (PR). This PR is then reviewed by another developer and build by the CI. If all is fine and tests are green the PR can be merged onto `develop`.

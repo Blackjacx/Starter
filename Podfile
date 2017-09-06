@@ -5,8 +5,6 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'Starter' do
-
-pod 'SHSearchBar', :git => 'https://github.com/Blackjacx/SHSearchBar.git', :branch => 'develop'
     pod 'SwiftLint'
     pod 'Fabric'
     pod 'Crashlytics'
