@@ -7,15 +7,32 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let rootViewController = RootViewController()
 
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Disabling animations and speed up tests - this is set in Screenshot XCUITests
+        if ProcessInfo.processInfo.environment["animations"] == "0" {
+            UIView.setAnimationsEnabled(false)
+        }
+
+        // Setup Crashlytics
+        Fabric.with([Crashlytics.self])
+
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+
         return true
     }
 

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		93E2527DB3EEE70E2A774C71 /* Pods_Starter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FE2AA99111E1018BBE6DED /* Pods_Starter.framework */; };
 		B91BF5BA1F6055440074FBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BF5B91F6055440074FBF4 /* AppDelegate.swift */; };
-		B91BF5BC1F6055440074FBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BF5BB1F6055440074FBF4 /* ViewController.swift */; };
+		B91BF5BC1F6055440074FBF4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BF5BB1F6055440074FBF4 /* RootViewController.swift */; };
 		B91BF5C11F6055440074FBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91BF5C01F6055440074FBF4 /* Assets.xcassets */; };
 		B91BF5C41F6055440074FBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91BF5C21F6055440074FBF4 /* LaunchScreen.storyboard */; };
 		B91BF5CF1F6055440074FBF4 /* StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BF5CE1F6055440074FBF4 /* StarterTests.swift */; };
@@ -48,7 +48,7 @@
 		B2B56EEFA6FE699076372433 /* Pods-StarterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarterUITests/Pods-StarterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B91BF5B61F6055440074FBF4 /* Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91BF5B91F6055440074FBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B91BF5BB1F6055440074FBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B91BF5BB1F6055440074FBF4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B91BF5C01F6055440074FBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91BF5CA1F6055440074FBF4 /* StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91BF5CE1F6055440074FBF4 /* StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterTests.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B91BF5B91F6055440074FBF4 /* AppDelegate.swift */,
-				B91BF5BB1F6055440074FBF4 /* ViewController.swift */,
+				B91BF5BB1F6055440074FBF4 /* RootViewController.swift */,
 				B91BF5C01F6055440074FBF4 /* Assets.xcassets */,
 				B91BF5C21F6055440074FBF4 /* LaunchScreen.storyboard */,
 				B91BF5EF1F605E2E0074FBF4 /* Info.plist */,
@@ -489,7 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91BF5BC1F6055440074FBF4 /* ViewController.swift in Sources */,
+				B91BF5BC1F6055440074FBF4 /* RootViewController.swift in Sources */,
 				B91BF5BA1F6055440074FBF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
