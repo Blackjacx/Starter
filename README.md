@@ -85,10 +85,10 @@ Basically we develop on short living branches (one branch per task for example) 
 Master branch should always be stable and deployable for hotfixes, if necessary. Merge from `develop` to `master`therefore happens only wen a new release is deployed.
 
 ### Coding Guidelines
-We use the shared coding guidelines referenced [here](https://gist.github.com/Blackjacx/9040bb9271a9e361bfca25515cff9e9b)
+We use the shared coding guidelines referenced [here](https://gist.github.com/Blackjacx/9040bb9271a9e361bfca25515cff9e9b).
 
 ### Review Guidelines
-We use the shared review guidelines referenced [here](https://gist.github.com/Blackjacx/ddb80b348724da0113ab2fdd142b38b7)
+We use the shared review guidelines referenced [here](https://gist.github.com/Blackjacx/ddb80b348724da0113ab2fdd142b38b7).
 
 ### User Defaults
  
