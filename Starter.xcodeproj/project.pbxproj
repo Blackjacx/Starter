@@ -17,6 +17,7 @@
 		B91BF5EA1F605DF00074FBF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B91BF5EC1F605DF00074FBF4 /* Localizable.strings */; };
 		B91BF5F41F6062F60074FBF4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B91BF5F31F6062F60074FBF4 /* README.md */; };
 		B91BF5F61F60638C0074FBF4 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = B91BF5F51F60638C0074FBF4 /* CHANGELOG.md */; };
+		B9EAC3F81FE4445300AE39B3 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAC3F71FE4445300AE39B3 /* Preferences.swift */; };
 		C93A9B4F93B20379B107DC7D /* Pods_StarterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77D4B1B2B977529B0FCA14 /* Pods_StarterTests.framework */; };
 		E07EC98AE0E89A111F6470F0 /* Pods_StarterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0350EFEB87F90EA8F9FE62AF /* Pods_StarterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		B91BF5F21F605E530074FBF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91BF5F31F6062F60074FBF4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B91BF5F51F60638C0074FBF4 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		B9EAC3F71FE4445300AE39B3 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		DF77D4B1B2B977529B0FCA14 /* Pods_StarterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474B925CBCD0303F3C64748 /* Pods-Starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starter/Pods-Starter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 			children = (
 				B91BF5B91F6055440074FBF4 /* AppDelegate.swift */,
 				B91BF5BB1F6055440074FBF4 /* RootViewController.swift */,
+				B9EAC3F71FE4445300AE39B3 /* Preferences.swift */,
 				B91BF5C01F6055440074FBF4 /* Assets.xcassets */,
 				B91BF5C21F6055440074FBF4 /* LaunchScreen.storyboard */,
 				B91BF5EF1F605E2E0074FBF4 /* Info.plist */,
@@ -491,6 +494,7 @@
 			files = (
 				B91BF5BC1F6055440074FBF4 /* RootViewController.swift in Sources */,
 				B91BF5BA1F6055440074FBF4 /* AppDelegate.swift in Sources */,
+				B9EAC3F81FE4445300AE39B3 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
